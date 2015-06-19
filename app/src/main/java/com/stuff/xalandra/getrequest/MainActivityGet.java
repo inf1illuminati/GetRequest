@@ -71,6 +71,7 @@ public class MainActivityGet extends Activity {
                 Thread background = new Thread(new Runnable() {
 
                     private final HttpClient Client = new DefaultHttpClient();
+                    //stuur x = 100 door naar webpagina
                     private String URL = "http://robotarm.serverict.nl/index.php?x=100";
 
                     // After call for background.start this run method call
