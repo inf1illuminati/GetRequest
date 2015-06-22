@@ -20,6 +20,4 @@ import org.apache.http.impl.client.DefaultHttpClient;
  */
 public class ThreadHandlerAndroidExample extends Activity {
 
-
-
 }

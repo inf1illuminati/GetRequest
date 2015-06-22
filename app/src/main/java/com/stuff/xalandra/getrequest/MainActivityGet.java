@@ -55,8 +55,8 @@ public class MainActivityGet extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main_activity_get);
 
+        //knop
         final Button GetServerData = (Button) findViewById(R.id.GetServerData);
-
 
         // On button click call this listener
         GetServerData.setOnClickListener(new View.OnClickListener() {
